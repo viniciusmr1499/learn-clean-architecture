@@ -1,0 +1,15 @@
+dist/
+node_modules/
+annotations.md
+
+# App Project
+.env
+
+tsconfig.tsbuildinfo
+
+# IDE's
+.idea
+
+# Others
+*.log
+coverage/

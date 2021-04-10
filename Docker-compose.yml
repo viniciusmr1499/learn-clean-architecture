@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+  demo:
+    build: .
+    container_name: example
+    network_mode: host
+    ports:
+      - 5000:5000
+    volumes:
+      - ./:/app
+    # env_file:
+    # - .env
+    environment:
+      NODE_ENV: development
+    restart: unless-stopped
